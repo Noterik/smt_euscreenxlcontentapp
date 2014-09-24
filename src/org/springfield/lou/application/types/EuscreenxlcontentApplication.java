@@ -14,5 +14,9 @@ public class EuscreenxlcontentApplication extends Html5Application{
 		this.addReferid("linkinterceptor", "/euscreenxlelements/linkinterceptor");
 		
 	}
+ 	
+ 	public String getFavicon() {
+        return "/eddie/apps/euscreenxlelements/img/favicon.png";
+    }
 
 }
